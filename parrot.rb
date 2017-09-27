@@ -1,6 +1,6 @@
 # Create method `parrot` that outputs a given phrase and
 # returns the phrase
-class Parrot
+class Parrot(Squawk)
   def parrot=(phrase)
     @phrase=phrase
   end
