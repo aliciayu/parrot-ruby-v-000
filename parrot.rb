@@ -4,6 +4,3 @@ def parrot(*p)
   puts "Squawk!"
 end
 
-def Squawk
-  puts "Squawk!"
-end
