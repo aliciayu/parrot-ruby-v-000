@@ -1,6 +1,11 @@
 # Create method `parrot` that outputs a given phrase and
 # returns the phrase
-def parrot(phrase = Squawk)
-  @phrase=phrase
-  puts "#{phrase}!"
-end
+class Parrot
+  def parrot=(phrase)
+    @phrase=phrase
+  end
+
+
+  def parrot(phrase = Squawk)
+    puts "#{phrase}!"
+  end
