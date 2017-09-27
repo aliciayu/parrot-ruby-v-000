@@ -6,3 +6,4 @@ end
 
 def Squawk
   puts "Squawk!"
+end
